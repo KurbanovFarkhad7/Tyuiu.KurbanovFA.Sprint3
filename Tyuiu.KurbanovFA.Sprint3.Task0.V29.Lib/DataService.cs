@@ -7,12 +7,15 @@ namespace Tyuiu.KurbanovFA.Sprint3.Task0.V29.Lib
     {
         public double GetSumSeries(double value, int startValue, int stopValue)
         {
-            stopValue = 10;
-            for (startValue = 1; startValue < stopValue; startValue++)
+            double S = 0;
+           /* double value = 0.5;
+            int startValue = 1;
+            int stopValue = 10;*/
+            for (int i = startValue; i < stopValue; startValue++, i++)
             {
-                value = (Math.Pow(0.5, 2 * startValue) +  (1 / startValue + 1)) * Math.Cos(0.5);
+                S = (Math.Pow(value, 2 * startValue) +  (1 / startValue + 1)) * Math.Cos(value);
             }
-            return value;
+            return S;
 
         }
     }
