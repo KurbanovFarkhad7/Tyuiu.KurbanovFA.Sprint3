@@ -11,7 +11,7 @@ namespace Tyuiu.KurbanovFA.Sprint3.Task0.V29.Lib
            /* double value = 0.5;
             int startValue = 1;
             int stopValue = 10;*/
-            for (int i = startValue; i < stopValue; startValue++, i++)
+            for (int i = startValue; i < stopValue; i++)
             {
                 S = (Math.Pow(value, 2 * startValue) +  (1 / startValue + 1)) * Math.Cos(value);
             }
