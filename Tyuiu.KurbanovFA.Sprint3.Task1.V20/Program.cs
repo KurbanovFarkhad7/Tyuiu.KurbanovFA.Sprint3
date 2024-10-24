@@ -1,20 +1,20 @@
-﻿using Tyuiu.KurbanovFA.Sprint3.Task0.V29.Lib;
+﻿using Tyuiu.KurbanovFA.Sprint3.Task1.V20.Lib;
 
-namespace Tyuiu.KurbanovFA.Sprint3.Task0.V29
+namespace Tyuiu.KurbanovFA.Sprint3.Task1.V20
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            DataService ds = new DataService();            
+            DataService ds = new DataService();
 
             Console.Title = "Спринт #2 | Выполнил: Курбанов Ф.А. | РППб-24-1";
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #2                                                               *");
             Console.WriteLine("* Тема: Оператор цикла for                                                *");
-            Console.WriteLine("* Задание #0                                                              *");
-            Console.WriteLine("* Вариант #29                                                             *");
+            Console.WriteLine("* Задание #1                                                              *");
+            Console.WriteLine("* Вариант #20                                                             *");
             Console.WriteLine("* Выполнил: Курбанов Фархаджон Азамжанович | РППб-24-1                    *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
@@ -24,7 +24,7 @@ namespace Tyuiu.KurbanovFA.Sprint3.Task0.V29
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("Введите Value:                                                             ");
-            double value = double.Parse(Console.ReadLine());
+            int value = int.Parse(Console.ReadLine());
             Console.WriteLine("Введите startValue:                                                        ");
             int startValue = int.Parse(Console.ReadLine());
             Console.WriteLine("Введите stopValue:                                                         ");
@@ -35,7 +35,7 @@ namespace Tyuiu.KurbanovFA.Sprint3.Task0.V29
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine(ds.GetSumSeries(value, startValue, stopValue));
+            Console.WriteLine(ds.GetMultiplySeries(value, startValue, stopValue));
         }
     }
 }
