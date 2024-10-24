@@ -2,7 +2,7 @@
 
 namespace Tyuiu.KurbanovFA.Sprint3.Task1.V20.Lib
 {
-    public class DataService : ISprint3Task0V20
+    public class DataService : ISprint3Task1V20
     {
         public double GetMultiplySeries(int value, int startValue, int stopValue)
         {
