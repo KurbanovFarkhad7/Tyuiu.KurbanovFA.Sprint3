@@ -6,13 +6,11 @@ namespace Tyuiu.KurbanovFA.Sprint3.Task1.V20.Lib
     {
         public double GetSumSeries(int startValue, int stopValue)
         {
-            double result = 0;
-            startValue = 1;
-            stopValue = 16;
+            double result = 0; //51191.405
             while (startValue <= stopValue)
             {
-                startValue++;
                 result += Math.Pow(1 / Math.Cos(startValue), 2);
+                startValue++;
             }
             return Math.Round(result, 3);
         }

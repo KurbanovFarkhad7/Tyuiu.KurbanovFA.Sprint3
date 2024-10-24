@@ -9,10 +9,10 @@ namespace Tyuiu.KurbanovFA.Sprint3.Task1.V20.Test
         public void ValidExpression()
         {
             DataService ds = new DataService();
-            int value = 1; int startValue = 1; int stopValue = 10;
+            int startValue = 1; int stopValue = 16;
             double res = 0;
-            res = ds.GetMultiplySeries(value, startValue, stopValue);
-            double wait = 2.065;
+            res = ds.GetSumSeries(startValue, stopValue);
+            double wait = 51191.405;
             Assert.AreEqual(wait, res);
         }
     }
