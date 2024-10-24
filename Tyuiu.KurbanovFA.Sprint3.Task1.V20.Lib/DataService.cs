@@ -4,7 +4,7 @@ namespace Tyuiu.KurbanovFA.Sprint3.Task1.V20.Lib
 {
     public class DataService : ISprint3Task1V20
     {
-        public double GetMultiplySeries(int value, int startValue, int stopValue)
+        public double GetSumSeries(int startValue, int stopValue)
         {
             double result = 0;
             startValue = 1;

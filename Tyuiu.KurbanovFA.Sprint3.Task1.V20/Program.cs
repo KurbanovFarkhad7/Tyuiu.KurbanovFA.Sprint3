@@ -23,19 +23,16 @@ namespace Tyuiu.KurbanovFA.Sprint3.Task1.V20
             Console.WriteLine("*                                                                         *");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("Введите Value:                                                             ");
-            int value = int.Parse(Console.ReadLine());
             Console.WriteLine("Введите startValue:                                                        ");
             int startValue = int.Parse(Console.ReadLine());
             Console.WriteLine("Введите stopValue:                                                         ");
             int stopValue = int.Parse(Console.ReadLine());
-            Console.WriteLine("* value = " + value);
             Console.WriteLine("* startValue = " + startValue);
             Console.WriteLine("* stopValue = " + stopValue);
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine(ds.GetMultiplySeries(value, startValue, stopValue));
+            Console.WriteLine(ds.GetSumSeries(startValue, stopValue));
         }
     }
 }
