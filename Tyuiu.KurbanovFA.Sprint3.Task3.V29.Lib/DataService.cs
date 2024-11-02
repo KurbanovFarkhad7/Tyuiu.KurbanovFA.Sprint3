@@ -7,7 +7,7 @@ namespace Tyuiu.KurbanovFA.Sprint3.Task3.V29.Lib
         public string DeleteCharInString(string value, char item)
         {
             string result = "";
-            foreach (char c in value)
+            foreach (char c in value) 
             {
                 if (c !=  item)
                 {
