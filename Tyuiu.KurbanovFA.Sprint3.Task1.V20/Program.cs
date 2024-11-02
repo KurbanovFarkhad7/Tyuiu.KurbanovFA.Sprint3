@@ -8,11 +8,11 @@ namespace Tyuiu.KurbanovFA.Sprint3.Task1.V20
         {
             DataService ds = new DataService();
 
-            Console.Title = "Спринт #2 | Выполнил: Курбанов Ф.А. | РППб-24-1";
+            Console.Title = "Спринт #3 | Выполнил: Курбанов Ф.А. | РППб-24-1";
 
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("* Спринт #2                                                               *");
-            Console.WriteLine("* Тема: Оператор цикла for                                                *");
+            Console.WriteLine("* Спринт #3                                                               *");
+            Console.WriteLine("* Тема: Оператор цикла while                                              *");
             Console.WriteLine("* Задание #1                                                              *");
             Console.WriteLine("* Вариант #20                                                             *");
             Console.WriteLine("* Выполнил: Курбанов Фархаджон Азамжанович | РППб-24-1                    *");

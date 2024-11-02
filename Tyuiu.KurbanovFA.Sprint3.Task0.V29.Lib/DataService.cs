@@ -8,16 +8,14 @@ namespace Tyuiu.KurbanovFA.Sprint3.Task0.V29.Lib
     {
         public double GetSumSeries(double value, int startValue, int stopValue)
         {
+            double result = 0;
             double S = 0;
-            double result = 1;
-            for (startValue = startValue;  startValue <= stopValue; startValue++)
+            for (startValue = startValue; startValue <= stopValue; startValue++)
             {
                 result += (Math.Pow(value, 2 * startValue) + (1 / (startValue + 1))) * Math.Cos(value);
-                /*result = result + S * 7.06;*/
-                
+                result = result + S * 7.06;
             }
-            return Math.Round(result, 3);
-
+            return result;
         }
     }
 }

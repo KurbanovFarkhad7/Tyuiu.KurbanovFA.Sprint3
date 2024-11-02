@@ -8,13 +8,13 @@ namespace Tyuiu.KurbanovFA.Sprint3.Task4.V23
         {
             DataService ds = new DataService();
 
-            Console.Title = "Спринт #2 | Выполнил: Курбанов Ф.А. | РППб-24-1";
+            Console.Title = "Спринт #3 | Выполнил: Курбанов Ф.А. | РППб-24-1";
 
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("* Спринт #2                                                               *");
-            Console.WriteLine("* Тема: Оператор цикла for                                                *");
-            Console.WriteLine("* Задание #1                                                              *");
-            Console.WriteLine("* Вариант #20                                                             *");
+            Console.WriteLine("* Спринт #3                                                               *");
+            Console.WriteLine("* Тема: Использование операторов continue и break в циклах                *");
+            Console.WriteLine("* Задание #4                                                              *");
+            Console.WriteLine("* Вариант #23                                                             *");
             Console.WriteLine("* Выполнил: Курбанов Фархаджон Азамжанович | РППб-24-1                    *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
