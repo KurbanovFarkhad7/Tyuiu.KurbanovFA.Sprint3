@@ -6,14 +6,16 @@ namespace Tyuiu.KurbanovFA.Sprint3.Task4.V23.Lib
     {
         public double Calculate(int startValue, int stopValue)
         {
-            double x = 0;
-            double y = 0;
+            double x;
+            double result = 1;
             for (int i = startValue; i < stopValue; i++)
             {
-                y += (Math.Cos(x) / x) + 3;
-                if (x == 0){break;} else { continue;}
+                x = i;
+                if (x == 0) { break; }
+                double y = (Math.Cos(x) / x) + 3;
+                result *= y;
             }
-            return Math.Round(y,3);
+            return Math.Round(result,3);
         }
     }
 }
