@@ -10,11 +10,11 @@ namespace Tyuiu.KurbanovFA.Sprint3.Task2.V12.Lib
             stopValue = 5;
             value = 5;*/
 
-            double ro = 0;
+            double ro = 1;
 
             do
             {
-                ro += Math.Pow(300 / (startValue + Math.Pow(value, startValue)), startValue);
+                ro *= Math.Pow(300 / (startValue + Math.Pow(value, startValue)), startValue);
                 startValue++;
             }
             while (startValue <= stopValue);
