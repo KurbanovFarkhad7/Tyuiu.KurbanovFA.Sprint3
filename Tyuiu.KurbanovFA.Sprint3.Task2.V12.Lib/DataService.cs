@@ -6,15 +6,19 @@ namespace Tyuiu.KurbanovFA.Sprint3.Task2.V12.Lib
     {
         public double GetMultiplySeries(int value, int startValue, int stopValue)
         {
-            double ro;
+            /*startValue = 1;
+            stopValue = 5;
+            value = 5;*/
+
+            double ro = 0;
 
             do
             {
-                ro = Math.Pow(300 / (startValue + Math.Pow(5, startValue)), startValue);
+                ro += Math.Pow(300 / (startValue + Math.Pow(value, startValue)), startValue);
                 startValue++;
             }
             while (startValue <= stopValue);
-            return ro;
+            return Math.Round(ro, 3);
         }
     }
 }

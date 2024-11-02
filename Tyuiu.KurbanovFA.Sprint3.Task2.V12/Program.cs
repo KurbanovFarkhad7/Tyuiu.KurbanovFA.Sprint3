@@ -23,9 +23,9 @@ namespace Tyuiu.KurbanovFA.Sprint3.Task2.V12
             Console.WriteLine("*                                                                         *");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("Введите startValue:                                                        ");
             Console.WriteLine("Введите Value:                                                             ");
             int value = int.Parse(Console.ReadLine());
+            Console.WriteLine("Введите startValue:                                                        ");
             int startValue = int.Parse(Console.ReadLine());
             Console.WriteLine("Введите stopValue:                                                         ");
             int stopValue = int.Parse(Console.ReadLine());
